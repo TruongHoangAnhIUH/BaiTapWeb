@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 15</title>
+    <style>
+        .to{
+            margin-left: 80px;
+        }
+        .from{
+            margin-left: 80px;
+        }
+        .body{
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 500px;height: 500px; box-shadow: 5px 5px 5px 5px gray;">
+        <h1>Contact Us</h1>
+        <fieldset>
+            <legend>Your message:</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="emailTo">To</label>
+                    </td>
+                    <td>
+                        <input  class="to" type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe">
+                    </td>
+                    <tr>
+                        <td><label for="emailFrom">Your email</label></td>
+                        <td>
+                            <input class="from" type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailBody">Mesage</label></td>
+                        <td><textarea class="body" name="txtBody" id="emailBody" cols="40" rows="10" tabindex="2"></textarea></td>
+                    </tr>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us:</legend>
+            <p >How did you hear of you
+                <select name="" id="">
+                    <option value="Google">Google</option>
+                </select>
+            </p>
+            <p>Newsletter
+               <input style="margin-left: 80px;" type="checkbox" name="" id="">
+               Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p> 
+        </fieldset>
+        <input type="button" value="Sen Message">
+    </div>
+    <br>
+    <br>
+    <div style="width: 500px;height: 650px;box-shadow: 5px 5px 5px 5px gray;">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <p>First name:
+              <input type="text" name="" id="">
+            </p>
+             <p>Last name:
+              <input type="text">
+             </p>
+             <p>Email
+              <input type="text">
+             </p>
+        </fieldset>
+        <fieldset>
+            <legend><i>Compettion Question</i></legend>
+            <p>How tall is the Eiffel Tower in Paris, France</p>
+            <input type="radio" name="" id="">
+            584ft
+            <br>
+            <input type="radio" name="" id="">
+            584ft
+            <br>
+            <input type="radio" name="" id="">
+            584ft
+            <br>
+            <input type="radio" name="" id="">
+            584ft
+        </fieldset>
+    <fieldset>
+        <legend><i>Tiebreaker Question</i></legend>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Enter compettion</legend>
+        <input type="button" value="Enter Compettion">
+    </fieldset>
+    </div>
+</body>
+</html>
